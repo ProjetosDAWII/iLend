@@ -4,9 +4,17 @@
         <servlet-name>ServletGetAjaxData</servlet-name>
         <servlet-class>br.tatuapu.controller.ServletGetAjaxData</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletValidador</servlet-name>
+        <servlet-class>br.tatuapu.controller.ServletValidador</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletGetAjaxData</servlet-name>
         <url-pattern>/getDados.pvh</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletValidador</servlet-name>
+        <url-pattern>/servletValidador</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
